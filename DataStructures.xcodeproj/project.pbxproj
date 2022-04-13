@@ -73,38 +73,38 @@
 			children = (
 				3F9B728F2806180E00607CBB /* main.swift */,
 				3F9B72A528061F0400607CBB /* Common */,
-				3F9B72A428061EF300607CBB /* PriorityQueue */,
-				3F9B72A328061ED800607CBB /* Queue */,
-				3F9B729A28061C3200607CBB /* Stack */,
+				3F9B729A28061C3200607CBB /* I. Stack */,
+				3F9B72A328061ED800607CBB /* II. Queue */,
+				3F9B72A428061EF300607CBB /* III. PriorityQueue */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
 		};
-		3F9B729A28061C3200607CBB /* Stack */ = {
+		3F9B729A28061C3200607CBB /* I. Stack */ = {
 			isa = PBXGroup;
 			children = (
 				3F9B72962806183900607CBB /* Stack.swift */,
 				3F9B72982806189200607CBB /* StackIMP.swift */,
 			);
-			path = Stack;
+			path = "I. Stack";
 			sourceTree = "<group>";
 		};
-		3F9B72A328061ED800607CBB /* Queue */ = {
+		3F9B72A328061ED800607CBB /* II. Queue */ = {
 			isa = PBXGroup;
 			children = (
 				3F9B729B28061C3E00607CBB /* Queue.swift */,
 				3F9B729D28061C9900607CBB /* QueueIMP.swift */,
 			);
-			path = Queue;
+			path = "II. Queue";
 			sourceTree = "<group>";
 		};
-		3F9B72A428061EF300607CBB /* PriorityQueue */ = {
+		3F9B72A428061EF300607CBB /* III. PriorityQueue */ = {
 			isa = PBXGroup;
 			children = (
 				3F9B729F28061DC100607CBB /* PriorityQueue.swift */,
 				3F9B72A628061F5400607CBB /* PriorityQueueIMP.swift */,
 			);
-			path = PriorityQueue;
+			path = "III. PriorityQueue";
 			sourceTree = "<group>";
 		};
 		3F9B72A528061F0400607CBB /* Common */ = {
