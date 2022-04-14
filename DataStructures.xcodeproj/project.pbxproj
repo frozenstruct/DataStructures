@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F633989280761FB00C72E20 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F633988280761FB00C72E20 /* LinkedList.swift */; };
+		3F63398B2807646C00C72E20 /* LinkedListIMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F63398A2807646C00C72E20 /* LinkedListIMP.swift */; };
 		3F9B72902806180E00607CBB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B728F2806180E00607CBB /* main.swift */; };
 		3F9B72972806183900607CBB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B72962806183900607CBB /* Stack.swift */; };
 		3F9B72992806189200607CBB /* StackIMP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9B72982806189200607CBB /* StackIMP.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F633988280761FB00C72E20 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		3F63398A2807646C00C72E20 /* LinkedListIMP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListIMP.swift; sourceTree = "<group>"; };
 		3F9B728C2806180E00607CBB /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9B728F2806180E00607CBB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3F9B72962806183900607CBB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
@@ -52,6 +56,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F633987280761EE00C72E20 /* IV. LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				3F633988280761FB00C72E20 /* LinkedList.swift */,
+				3F63398A2807646C00C72E20 /* LinkedListIMP.swift */,
+			);
+			path = "IV. LinkedList";
+			sourceTree = "<group>";
+		};
 		3F9B72832806180D00607CBB = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +84,7 @@
 		3F9B728E2806180E00607CBB /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
+				3F633987280761EE00C72E20 /* IV. LinkedList */,
 				3F9B728F2806180E00607CBB /* main.swift */,
 				3F9B72A528061F0400607CBB /* Common */,
 				3F9B729A28061C3200607CBB /* I. Stack */,
@@ -173,8 +187,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F633989280761FB00C72E20 /* LinkedList.swift in Sources */,
 				3F9B72992806189200607CBB /* StackIMP.swift in Sources */,
 				3F9B72972806183900607CBB /* Stack.swift in Sources */,
+				3F63398B2807646C00C72E20 /* LinkedListIMP.swift in Sources */,
 				3F9B72902806180E00607CBB /* main.swift in Sources */,
 				3F9B729C28061C3E00607CBB /* Queue.swift in Sources */,
 				3F9B729E28061C9900607CBB /* QueueIMP.swift in Sources */,

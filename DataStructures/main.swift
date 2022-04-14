@@ -40,3 +40,14 @@ priorityQueue.enqueue(element: 55, priority: 0)
 print(priorityQueue.description)
 print(priorityQueue.dequeue())
 print(priorityQueue.description)
+
+// MARK: Linked List
+
+var node = ListNode<Int>.init(wrappedValue: 3, next: ListNode<Int>.init(wrappedValue: 4, next: nil))
+
+while var nextNode = node.next {
+
+	print(nextNode)
+	nextNode = nextNode.next ?? nil
+
+}
